@@ -10,5 +10,6 @@ class klasa_tylko_po_to_aby_wywolac_metode_z_sesji extends Sesja {
 
 }
 
+
 $cos = new klasa_tylko_po_to_aby_wywolac_metode_z_sesji;
 $cos->metoda_tylko_po_to_aby_wywolac_metode_z_sesji();

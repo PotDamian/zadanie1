@@ -2,9 +2,9 @@
 
 <?php
 
-include_once('../wyswietlanie_tab.php');
-include_once('../logowanie.php');
-include_once('../sesja.php');
+include_once('wyswietlanie_tab.php');
+include_once('logowanie.php');
+include_once('sesja.php');
 
 $database = new Db();
 $database->check_what_is_clicked();
@@ -36,6 +36,6 @@ $sesja = new Sesja();
              <input type="submit" value="Sortuj">
          </form>
 
-        <a href="../logout.php">Wyloguj się</a>
+        <a href="logout.php">Wyloguj się</a>
     </body>
 </html>

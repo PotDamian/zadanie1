@@ -24,7 +24,8 @@ class Sesja {
 
         session_start();
         session_unset();
-        header('Location: index.php');
+        header("Location: index.php");
+        
     }
 
     public function logout() {
@@ -33,7 +34,7 @@ class Sesja {
 
     public function for_not_logged() {
         if (!isset($_SESSION['logged_in'])) {
-            header('Location: ../index.php');
+            header('Location: index.php');
             exit();
         }
     }   
